@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STRYD — Premium Footwear</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     1. NAVIGATION
+     ═══════════════════════════════════════ -->
+<nav class="navbar" id="mainNav">
+  <a href="#hero" class="nav-logo">STRY<span>D</span></a>
+
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#collections">Collections</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#promos">Offers</a></li>
+    <li><a href="#footer">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <div class="nav-cart" title="Cart">
+      🛒<span class="cart-badge">3</span>
+    </div>
+    <a href="#products" class="btn btn-cream" style="padding:10px 22px;font-size:10px;">Shop Now</a>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════
+     2. HERO SECTION
+     ═══════════════════════════════════════ -->
+<section class="hero" id="hero">
+
+  <!-- Real shoe photo from Pexels -->
+  <div class="hero-bg-img">
+    <img
+      src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+      alt="Premium sneakers hero"
+    />
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-bg-word">STRYD</div>
+  <div class="hero-vline"></div>
+
+  <!-- Floating info tags -->
+  <div class="hero-stat hero-stat-1">
+    <div class="hs-label">New Collection</div>
+    <div class="hs-val">AW <span class="g">2025</span></div>
+  </div>
+  <div class="hero-stat hero-stat-2">
+    <div class="hs-label">Starting From</div>
+    <div class="hs-val">$<span class="g">89</span></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="hero-content">
+    <div class="eyebrow hero-eyebrow">Premium Footwear</div>
+    <h1 class="hero-title">
+      Walk In<br>
+      <span class="italic">Style</span>
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        Discover shoes crafted for those who refuse to compromise — where performance meets artistry, one step at a time.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-cream">Shop Now →</a>
+        <a href="#collections" class="btn btn-outline">Collections</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-bar"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     3. FEATURED PRODUCTS
+     ═══════════════════════════════════════ -->
+<section class="products-section section-pad" id="products">
+  <div class="container">
+
+    <div class="products-hdr reveal">
+      <div>
+        <span class="eyebrow">New Arrivals</span>
+        <h2 class="section-title" style="margin-top:16px;">Featured<br>Products</h2>
+      </div>
+      <a href="#" class="btn btn-outline">View All →</a>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 1 — Nike Air sneaker -->
+      <div class="product-card reveal" style="transition-delay:0.05s">
+        <div class="product-img-wrap">
+          <img
+            src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+            alt="Apex Runner Pro"
+          />
+          <span class="prod-badge badge-new">New</span>
+          <span class="prod-wish" title="Wishlist">♡</span>
+          <div class="prod-overlay">
+            <a href="#" class="btn btn-cream" style="padding:12px 24px;">Quick View</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="prod-cat">Sneakers</div>
+          <div class="prod-name">Apex Runner Pro</div>
+          <div class="prod-footer">
+            <div class="prod-price">$129</div>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 — Red sports shoe -->
+      <div class="product-card reveal" style="transition-delay:0.10s">
+        <div class="product-img-wrap">
+          <img
+            src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+            alt="Velocity Sprint X"
+          />
+          <span class="prod-badge badge-hot">Hot</span>
+          <span class="prod-wish" title="Wishlist">♡</span>
+          <div class="prod-overlay">
+            <a href="#" class="btn btn-cream" style="padding:12px 24px;">Quick View</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="prod-cat">Sports</div>
+          <div class="prod-name">Velocity Sprint X</div>
+          <div class="prod-footer">
+            <div class="prod-price">$159 <span class="old">$199</span></div>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 — White formal shoes -->
+      <div class="product-card reveal" style="transition-delay:0.15s">
+        <div class="product-img-wrap">
+          <img
+            src="https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+            alt="Oxford Classic II"
+          />
+          <span class="prod-badge badge-new">New</span>
+          <span class="prod-wish" title="Wishlist">♡</span>
+          <div class="prod-overlay">
+            <a href="#" class="btn btn-cream" style="padding:12px 24px;">Quick View</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="prod-cat">Formal</div>
+          <div class="prod-name">Oxford Classic II</div>
+          <div class="prod-footer">
+            <div class="prod-price">$189</div>
+            <div class="prod-stars">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 — Casual blue shoe -->
+      <div class="product-card reveal" style="transition-delay:0.20s">
+        <div class="product-img-wrap">
+          <img
+            src="https://images.pexels.com/photos/1124466/pexels-photo-1124466.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+            alt="Wave Rider Lite"
+          />
+          <span class="prod-badge badge-sale">−30%</span>
+          <span class="prod-wish" title="Wishlist">♡</span>
+          <div class="prod-overlay">
+            <a href="#" class="btn btn-cream" style="padding:12px 24px;">Quick View</a>
+          </div>
+        </div>
+        <div class="product-body">
+          <div class="prod-cat">Casual</div>
+          <div class="prod-name">Wave Rider Lite</div>
+          <div class="prod-footer">
+            <div class="prod-price">$89 <span class="old">$129</span></div>
+            <div class="prod-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     4. COLLECTIONS / CATEGORIES
+     ═══════════════════════════════════════ -->
+<section class="collections-section section-pad" id="collections">
+  <div class="container">
+
+    <div class="collections-intro reveal">
+      <div>
+        <span class="eyebrow">Our Range</span>
+        <h2 class="section-title" style="margin-top:16px;">Shop By<br>Collection</h2>
+      </div>
+      <p class="coll-intro-text">
+        From the track to the boardroom — we have a silhouette crafted for every step of your journey.
+      </p>
+    </div>
+
+    <div class="coll-grid reveal" style="transition-delay:0.1s;">
+
+      <!-- Sneakers — tall card -->
+      <div class="coll-card tall">
+        <img
+          src="https://images.pexels.com/photos/2421374/pexels-photo-2421374.jpeg?auto=compress&cs=tinysrgb&w=900&q=80"
+          alt="Sneakers collection"
+        />
+        <div class="coll-gradient"></div>
+        <div class="coll-arrow">↗</div>
+        <div class="coll-info">
+          <div class="coll-label">Best Seller</div>
+          <div class="coll-name lg">Sneakers</div>
+          <div class="coll-count">48 Styles Available</div>
+        </div>
+      </div>
+
+      <!-- Formal -->
+      <div class="coll-card">
+        <img
+          src="https://images.pexels.com/photos/293405/pexels-photo-293405.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+          alt="Formal shoes collection"
+        />
+        <div class="coll-gradient"></div>
+        <div class="coll-arrow">↗</div>
+        <div class="coll-info">
+          <div class="coll-label">Office Ready</div>
+          <div class="coll-name">Formal</div>
+          <div class="coll-count">22 Styles</div>
+        </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="coll-card">
+        <img
+          src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+          alt="Sports shoes collection"
+        />
+        <div class="coll-gradient"></div>
+        <div class="coll-arrow">↗</div>
+        <div class="coll-info">
+          <div class="coll-label">Performance</div>
+          <div class="coll-name">Sports</div>
+          <div class="coll-count">31 Styles</div>
+        </div>
+      </div>
+
+      <!-- Boots -->
+      <div class="coll-card">
+        <img
+          src="https://images.pexels.com/photos/1030945/pexels-photo-1030945.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+          alt="Boots collection"
+        />
+        <div class="coll-gradient"></div>
+        <div class="coll-arrow">↗</div>
+        <div class="coll-info">
+          <div class="coll-label">All-Terrain</div>
+          <div class="coll-name">Boots</div>
+          <div class="coll-count">18 Styles</div>
+        </div>
+      </div>
+
+      <!-- Casual -->
+      <div class="coll-card">
+        <img
+          src="https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+          alt="Casual shoes collection"
+        />
+        <div class="coll-gradient"></div>
+        <div class="coll-arrow">↗</div>
+        <div class="coll-info">
+          <div class="coll-label">Everyday Wear</div>
+          <div class="coll-name">Casual</div>
+          <div class="coll-count">35 Styles</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     5. PROMOTIONS / OFFERS
+     ═══════════════════════════════════════ -->
+<section class="promos-section section-pad" id="promos">
+  <div class="container">
+
+    <span class="eyebrow reveal">Limited Time</span>
+    <h2 class="section-title reveal" style="margin-top:16px; margin-bottom:48px;">Special<br>Offers</h2>
+
+    <div class="promos-grid">
+
+      <!-- Main big promo -->
+      <div class="promo-main reveal">
+        <div class="promo-main-img">
+          <img
+            src="https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80"
+            alt="Summer Sale"
+          />
+        </div>
+        <div class="promo-main-overlay"></div>
+        <div class="promo-glow"></div>
+        <div class="promo-big-num">50</div>
+        <div class="promo-body">
+          <div class="promo-tag">🔥 Flash Sale</div>
+          <h3 class="promo-title">UP TO 50% OFF<br>SUMMER SALE</h3>
+          <p class="promo-desc">
+            Our biggest sale of the year. Premium sneakers, sports shoes, and more — all at unbeatable prices. Limited stock only.
+          </p>
+          <div class="promo-timer">
+            <div class="timer-unit">
+              <div class="timer-num" id="t-hrs">08</div>
+              <div class="timer-label">Hours</div>
+            </div>
+            <div class="timer-sep">:</div>
+            <div class="timer-unit">
+              <div class="timer-num" id="t-min">45</div>
+              <div class="timer-label">Mins</div>
+            </div>
+            <div class="timer-sep">:</div>
+            <div class="timer-unit">
+              <div class="timer-num" id="t-sec">30</div>
+              <div class="timer-label">Secs</div>
+            </div>
+          </div>
+          <a href="#products" class="btn btn-gold">Grab the Deal →</a>
+        </div>
+      </div>
+
+      <!-- Side promos -->
+      <div class="promo-side reveal" style="transition-delay:0.1s;">
+
+        <div class="promo-mini">
+          <div class="promo-mini-img">
+            <img
+              src="https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+              alt="Bundle Deal"
+            />
+          </div>
+          <div class="promo-mini-overlay"></div>
+          <div class="promo-mini-num">2</div>
+          <div class="promo-mini-content">
+            <div class="promo-mini-label">Bundle Deal</div>
+            <div class="promo-mini-title">Buy 2, Get 1 FREE</div>
+            <p class="promo-mini-desc">Mix & match from Casual and Sneaker collections. The lowest-priced pair is on us.</p>
+            <a href="#" class="promo-mini-link">Shop Bundle →</a>
+          </div>
+        </div>
+
+        <div class="promo-mini">
+          <div class="promo-mini-img">
+            <img
+              src="https://images.pexels.com/photos/1661150/pexels-photo-1661150.jpeg?auto=compress&cs=tinysrgb&w=700&q=80"
+              alt="First Order Discount"
+            />
+          </div>
+          <div class="promo-mini-overlay"></div>
+          <div class="promo-mini-num">15</div>
+          <div class="promo-mini-content">
+            <div class="promo-mini-label">First Order</div>
+            <div class="promo-mini-title">15% Off First Purchase</div>
+            <p class="promo-mini-desc">New to STRYD? Use code <strong style="color:var(--gold)">STRYD15</strong> at checkout.</p>
+            <a href="#" class="promo-mini-link">Use Code →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     6. TESTIMONIALS / REVIEWS
+     ═══════════════════════════════════════ -->
+<section class="testimonials-section section-pad" id="testimonials">
+  <div class="container">
+
+    <div class="testi-hdr reveal">
+      <span class="eyebrow">What People Say</span>
+      <h2 class="section-title">Customer<br>Reviews</h2>
+    </div>
+
+    <div class="testi-grid">
+
+      <div class="testi-card reveal" style="transition-delay:0.05s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">
+          These are the most comfortable sneakers I've ever owned. The build quality is exceptional — worth every single penny.
+        </p>
+        <div class="testi-author">
+          <div class="testi-av">👨</div>
+          <div>
+            <div class="testi-name">James M.</div>
+            <div class="testi-role">Purchased: Apex Runner Pro</div>
+          </div>
+          <div class="testi-badge">Verified</div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.1s">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">
+          I ordered the Velocity Sprint X for my marathon training. The grip and support are on another level. Already on my second pair!
+        </p>
+        <div class="testi-author">
+          <div class="testi-av">👩</div>
+          <div>
+            <div class="testi-name">Sarah K.</div>
+            <div class="testi-role">Purchased: Velocity Sprint X</div>
+          </div>
+          <div class="testi-badge">Verified</div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal" style="transition-delay:0.15s">
+        <div class="testi-stars">★★★★☆</div>
+        <p class="testi-text">
+          The Oxford Classic II gets compliments every time I wear them to the office. Elegant design, perfect fit. Highly recommend.
+        </p>
+        <div class="testi-author">
+          <div class="testi-av">👨‍💼</div>
+          <div>
+            <div class="testi-name">David R.</div>
+            <div class="testi-role">Purchased: Oxford Classic II</div>
+          </div>
+          <div class="testi-badge">Verified</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     7. NEWSLETTER / SUBSCRIPTION
+     ═══════════════════════════════════════ -->
+<section class="newsletter-section section-pad" id="newsletter">
+  <div class="nl-pattern"></div>
+  <div class="container">
+    <div class="nl-layout reveal">
+
+      <div>
+        <h2 class="nl-title">Stay One<br><span>Step Ahead</span></h2>
+        <p class="nl-desc">
+          Join our newsletter and be the first to know about new drops, exclusive deals, and style inspiration.
+        </p>
+        <div class="nl-perks">
+          <span class="nl-perk">Early Access</span>
+          <span class="nl-perk">Exclusive Discounts</span>
+          <span class="nl-perk">New Arrivals First</span>
+        </div>
+      </div>
+
+      <div class="nl-form-side">
+        <div class="nl-input-row">
+          <input type="email" class="nl-input" placeholder="Enter your email address" id="nlEmail" />
+          <button class="nl-submit" id="nlBtn" onclick="handleSub()">Subscribe →</button>
+        </div>
+        <p class="nl-note">🔒 No spam, ever. Unsubscribe anytime.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     8. FOOTER
+     ═══════════════════════════════════════ -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div>
+        <span class="footer-logo">STRY<span>D</span></span>
+        <p class="footer-tagline">Premium footwear crafted for those who refuse to compromise. Every step should tell a story — make it yours.</p>
+        <div class="footer-socials">
+          <a href="#" class="fsoc" title="Instagram">📸</a>
+          <a href="#" class="fsoc" title="Facebook">📘</a>
+          <a href="#" class="fsoc" title="TikTok">🎵</a>
+          <a href="#" class="fsoc" title="YouTube">▶️</a>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#promos">Offers</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Track My Order</a></li>
+          <li><a href="#">Returns & Exchange</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <div class="footer-contact-list">
+          <div class="fcon">
+            <span class="fcon-icon">📍</span>
+            <span>123 Fashion Ave, New York, NY 10001</span>
+          </div>
+          <div class="fcon">
+            <span class="fcon-icon">✉️</span>
+            <span>hello@stryd.com</span>
+          </div>
+          <div class="fcon">
+            <span class="fcon-icon">📞</span>
+            <span>+1 (800) 123-4567</span>
+          </div>
+          <div class="fcon">
+            <span class="fcon-icon">🕐</span>
+            <span>Mon–Fri, 9am – 6pm EST</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 <span>STRYD Footwear</span>. All Rights Reserved.</p>
+      <nav class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════ -->
+<script>
+  /* ── Sticky navbar ── */
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* ── Scroll reveal ── */
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+  /* ── Countdown timer ── */
+  let totalSeconds = 8 * 3600 + 45 * 60 + 30;
+  const hEl = document.getElementById('t-hrs');
+  const mEl = document.getElementById('t-min');
+  const sEl = document.getElementById('t-sec');
+  setInterval(() => {
+    if (totalSeconds <= 0) return;
+    totalSeconds--;
+    const h = Math.floor(totalSeconds / 3600);
+    const m = Math.floor((totalSeconds % 3600) / 60);
+    const s = totalSeconds % 60;
+    if (hEl) hEl.textContent = String(h).padStart(2, '0');
+    if (mEl) mEl.textContent = String(m).padStart(2, '0');
+    if (sEl) sEl.textContent = String(s).padStart(2, '0');
+  }, 1000);
+
+  /* ── Wishlist toggle ── */
+  document.querySelectorAll('.prod-wish').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      btn.classList.toggle('active');
+      btn.textContent = btn.classList.contains('active') ? '♥' : '♡';
+    });
+  });
+
+  /* ── Newsletter ── */
+  function handleSub() {
+    const input = document.getElementById('nlEmail');
+    const btn   = document.getElementById('nlBtn');
+    if (!input.value.includes('@')) {
+      input.style.outline = '2px solid #d94535';
+      return;
+    }
+    input.style.outline = '';
+    btn.textContent = '✓ Subscribed!';
+    btn.style.background = '#2a8040';
+    input.value = '';
+  }
+
+  /* ── Smooth scroll ── */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
